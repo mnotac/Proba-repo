@@ -46,7 +46,29 @@ git push -u origin main
 ```
 >sirve para sincronizar los archivos desde la rama main
 
+## Practica 2: Ejercicios de git
 
+### Comandos utilizados
 
+```bash
+> git config --global user.name "Your-Full-Name"
+> git config --global user.email "your-email-address"
+> git config --global color.ui auto
+> git config --list
+```
+>git config sirve para configurar nuestro git user.name para nuestro usuario user.mail para nuestro email color.ui auto paraactivar el coloreado de la salida y --list para ver la configuracion
+```bash
+git status
+git add
+```
+>git status sirve para para mirar el estado del repositorio local y git add añade los contenidos del archivo al index
 
+```bash
+git diff
+```
+>muestra los cambios que se hicieron en un archivo
 
+```bash 
+git commit --amend -m
+```
+>sirve para modificar el ultimo commit realizado 
