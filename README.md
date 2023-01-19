@@ -72,3 +72,13 @@ git diff
 git commit --amend -m
 ```
 >sirve para modificar el ultimo commit realizado 
+
+```bash
+git log
+```
+>Muestra las diferencias entre la última versión y dos versiones anteriores.
+
+```bash
+git annotate indice.txt
+```
+>muestra quien hizo los cambios en un fichero
