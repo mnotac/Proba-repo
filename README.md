@@ -82,3 +82,19 @@ git log
 git annotate indice.txt
 ```
 >muestra quien hizo los cambios en un fichero
+```bash
+git checkout --<file>
+```
+>Deshace los cambios realizados en el fichero  para volver a la versión anterior.
+```bash
+git reset <file>
+```
+>Quita los cambios de la zona de intercambio temporal, pero los mantiene en el directorio de trabajo.
+```bash
+git clean -f
+```
+>Deshace los cambios realizados para volver a la versión del repositorio.
+```bash
+git reset --hard <file>
+```
+>Quita los cambios de la zona de intercambio temporal, del archivo y del directorio de trabajo.
