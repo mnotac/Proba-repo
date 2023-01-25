@@ -98,3 +98,7 @@ git clean -f
 git reset --hard <file>
 ```
 >Quita los cambios de la zona de intercambio temporal, del archivo y del directorio de trabajo.
+```bash
+git-restore
+```
+>restaura los archivos de la rama en la que se esta trabajando
