@@ -102,3 +102,20 @@ git reset --hard <file>
 git-restore
 ```
 >restaura los archivos de la rama en la que se esta trabajando
+
+```bash
+git branch 
+```
+> sirve para crear una rama, si se le añade -av muestra las ramas disponibles
+```bash
+git checkout 
+```
+>sirve para movernos a una rama
+```bash
+git merge
+```
+>sirve para juntar o fusionar dos ramas 
+```bash
+git commit -a -m
+```
+>crea una confirmacion de todos los cambios de los archivos añadidos y aplica un mensaje
